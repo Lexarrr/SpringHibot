@@ -21,7 +21,6 @@ public class VkBotController {
     private static final String CONFIRMATION_CODE = "7daa38f0";
     private static final Logger logger = Logger.getLogger(VkBotController.class.getName());
 
-
     @PostMapping("/callback")
     public String handleCallback(@RequestBody String body) {
         logger.info("Получен запрос от VK: " + body);
@@ -59,7 +58,7 @@ public class VkBotController {
             String params = "user_id=" + userId +
                     "&message=" + URLEncoder.encode(text, "UTF-8") +
                     "&access_token=" + ACCESS_TOKEN +
-                    "&v=5.131";
+                    "&v=5.199";
 
             HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
             connection.setRequestMethod("POST");
