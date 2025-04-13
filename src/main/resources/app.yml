@@ -1,0 +1,9 @@
+token:
+  confirmation: ${7daa38f0}
+  access: ${vk1.a.bravU4lLWz6jMbcCVToegeX8XgUEFYFYBoaa2-nAtGqLOGz6i3L5cmEnupBSmr9zhvYs6fweJPJuGxqJDfZrOqc3y9_tHfe3TUp2ULc_TVKohoRFlmlyoIdRu3G6uotgGr1nO4hoKPlxVqkDIQLpE2JDv09-1KcqUi8xox4WWe9gc8YRR-OgTd32oS3-AW9FCdVyvW_aAcTaLWEv3DudaA}
+
+secret:
+  key: ${aslex2104Ar2719aa}
+
+server:
+  port: ${8000}
